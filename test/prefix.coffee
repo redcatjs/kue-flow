@@ -1,4 +1,4 @@
-kue = require '../'
+kue = require '../lib/kue'
 
 describe 'Kue - Prefix', ->
 

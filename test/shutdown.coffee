@@ -1,7 +1,7 @@
 should = require 'should'
 assert = require 'assert'
 
-kue = require '../'
+kue = require '../lib/kue'
 
 
 describe 'Kue', ->

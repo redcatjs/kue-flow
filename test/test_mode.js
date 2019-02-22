@@ -1,4 +1,4 @@
-var kue = require('../'),
+var kue = require('../lib/kue'),
     _ = require('lodash'),
     queue = kue.getQueue();
 

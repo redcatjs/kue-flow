@@ -1,8 +1,8 @@
 {
-  "name": "kue",
-  "version": "0.11.5",
-  "description": "Feature rich priority job queue backed by redis",
-  "homepage": "http://automattic.github.io/kue/",
+  "name": "kue-flow",
+  "version": "1.0.0",
+  "description": "Refacto of Kue with extra features",
+  "homepage": "",
   "keywords": [
     "job",
     "queue",
@@ -10,24 +10,20 @@
     "redis"
   ],
   "license": "MIT",
-  "author": "TJ Holowaychuk <tj@learnboost.com>",
-  "contributors": [
-    {
-      "name": "Behrad Zari",
-      "email": "behradz@gmail.com"
-    }
-  ],
+  "author": "Jo <jo@redcat.ninja>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Automattic/kue.git"
+    "url": "https://github.com/redcatjs/kue-flow.git"
   },
   "bugs": {
-    "url": "https://github.com/Automattic/kue/issues"
+    "url": "https://github.com/redcatjs/kue-flow/issues"
   },
   "dependencies": {
     "body-parser": "^1.12.2",
+    "debug": "^4.1.1",
     "express": "^4.12.2",
-    "lodash": "^4.0.0",
+    "fkill": "^5.3.0",
+    "lodash": "^4.17.11",
     "nib": "~1.1.2",
     "node-redis-warlock": "~0.2.0",
     "pug": "^2.0.0-beta3",
@@ -39,10 +35,10 @@
     "async": "^1.4.2",
     "chai": "^3.3.0",
     "coffee-script": "~1.10.0",
-    "mocha": "^2.3.3",
+    "mocha": "^2.5.3",
     "should": "^3.1.0",
     "sinon": "^1.17.2",
-    "supertest": "^1.1.0"
+    "supertest": "^1.2.0"
   },
   "main": "index",
   "bin": {

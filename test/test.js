@@ -1,4 +1,4 @@
-var kue = require( '../' );
+var kue = require( '../lib/kue' );
 
 describe('CONNECTION', function(){
         var jobs = null;

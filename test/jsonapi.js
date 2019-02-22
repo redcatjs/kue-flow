@@ -1,5 +1,5 @@
 var request = require( 'supertest' ),
-    kue     = require( '../index' ),
+    kue     = require( '../lib/kue' ),
     async   = require( 'async' ),
     chai    = require( 'chai' ),
     queue   = kue.getQueue( { disableSearch: false } ), //customize queue before accessing kue.app

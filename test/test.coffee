@@ -1,7 +1,7 @@
 _ = require 'lodash'
 async = require 'async'
 should = require 'should'
-kue = require '../'
+kue = require '../lib/kue'
 util = require 'util'
 
 describe 'Kue Tests', ->
