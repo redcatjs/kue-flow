@@ -1,6 +1,6 @@
 {
   "name": "kue-flow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Refacto of Kue with extra features",
   "homepage": "",
   "keywords": [
